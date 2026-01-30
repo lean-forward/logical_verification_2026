@@ -178,8 +178,8 @@ theorem And_swap (a b : Prop) :
 * Show `a`, which we can if we can show a conjunction with `a` on the left.
 * We can, we already have `a ∧ b`.
 
-The `.` combinator focuses on a specific subgoal. The tactic following it must
-fully prove the subgoal. In the proof below, `.` is used for each of the two
+The `·` combinator focuses on a specific subgoal. The tactic following it must
+fully prove the subgoal. In the proof below, `·` is used for each of the two
 subgoals to give more structure to the proof. -/
 
 theorem And_swap_braces :
